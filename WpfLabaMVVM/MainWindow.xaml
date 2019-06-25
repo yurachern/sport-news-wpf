@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfLabaMVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLabaMVVM"
+        mc:Ignorable="d"
+        Title="Sport news" Height="326.5" Width="593.5" Visibility="Visible">
+    <Window.Resources>
+        <XmlDataProvider x:Key="sportNews" Source="https://www.liga.net/news/sport/rss.xml" XPath="rss/channel/item"></XmlDataProvider>
+    </Window.Resources>
+    <Grid>
+        <ScrollViewer>
+            <ItemsControl ItemsSource="{Binding Source={StaticResource sportNews}}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Viewbox>
+                            <Grid Height="245" Width="1518" d:IsLocked="True">
+                                <Rectangle HorizontalAlignment="Stretch" Height="Auto" Margin="30,30,-780,0" Stroke="Black" VerticalAlignment="Stretch" Width="Auto" StrokeThickness="0" Fill="#FFF4F4F5" d:IsLocked="True">
+                                    <Rectangle.Effect>
+                                        <DropShadowEffect Color="#FF9B9090" Direction="600" ShadowDepth="10" BlurRadius="10" Opacity="0.5"/>
+                                    </Rectangle.Effect>
+                                </Rectangle>
+                                <TextBlock Foreground="#33B7B9" HorizontalAlignment="Stretch" Height="Auto" Margin="468,55,-825,85" TextWrapping="Wrap" VerticalAlignment="Stretch" Width="Auto" FontSize="20" FontFamily="Arial Black" d:IsLocked="True">
+                                    <Hyperlink NavigateUri="{Binding XPath=link}" RequestNavigate="Hyperlink_RequestNavigate">
+                                        <Hyperlink.Inlines>
+                                            <Run Text="{Binding XPath=title}"/>
+                                        </Hyperlink.Inlines>
+                                    </Hyperlink>
+                                </TextBlock>
+                                <Image Source="{Binding XPath=enclosure/@url}" HorizontalAlignment="Stretch" Height="Auto" Margin="75,55,1125,10" VerticalAlignment="Stretch" Width="Auto" d:IsLocked="True"/>
+                            </Grid>
+                        </Viewbox>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
+</Window>

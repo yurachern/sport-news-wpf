@@ -1,0 +1,15 @@
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\bin\Debug\WpfLabaMVVM.exe.config
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\bin\Debug\WpfLabaMVVM.exe
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\bin\Debug\WpfLabaMVVM.pdb
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\MainWindow.g.cs
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\App.g.cs
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM_MarkupCompile.cache
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM_MarkupCompile.lref
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\MainWindow.baml
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM.g.resources
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM.Properties.Resources.resources
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM.csproj.GenerateResource.cache
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM.csproj.CoreCompileInputs.cache
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM.exe
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM.pdb
+D:\Папка Юры\Академия ШАГ\WPF\24.03.19\WpfLabaMVVM\WpfLabaMVVM\obj\Debug\WpfLabaMVVM.csprojAssemblyReference.cache
